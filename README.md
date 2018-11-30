@@ -19,16 +19,44 @@ Users only need to tune *ONE* parameter. On line 21, the estimated kernel size *
 * The ***k_estimate_size*** must be LARGER than the real kernel size (The default value is 69).
 * In order to have the best performance, please set the value close to real kernel size or slightly larger.
 
-## To be robust with noise
+## About noise
 
 In order to be more robust with noise, we add several denoising modules beyond the paper.
 * We embed a TV denoising to pre-process the input image. 
 * We add a wavelet thresholding for intermediate output kernels. 
 * We add a mask to filter small/noisy gradient in the gradient domain.
 
-More sophisticated denoising can be done by users before running the blind deblurring, such as BM3D.
+More sophisticated denoising can be done by users in advance, such as BM3D.
 
-## Built With
+## About Non-blind image deblurring
+
+After kernel estimation with the proposed algorithm, we use the state-of-the-art methods to do non-blind image deblurring.
+Here, we provide users with [1] to do following non-blind image deblurring.
+Users can also employ [2] or non-blind deblurring in [3], by themselves.
+
+## Citation
+
+If you use this code, please cite:
+
+```
+@ARTICLE{GraphBID2018TIP, 
+author={Y. Bai and G. Cheung and X. Liu and W. Gao}, 
+journal={IEEE Transactions on Image Processing}, 
+title={Graph-Based Blind Image Deblurring From a Single Photograph}, 
+year={2018}, 
+volume={}, 
+number={}, 
+pages={1-1}, 
+keywords={Image restoration;Kernel;Skeleton;Image edge detection;Laplace equations;Symmetric matrices;Optimization;Blind image deblurring;graph signal processing;non-convex optimization}, 
+doi={10.1109/TIP.2018.2874290}, 
+ISSN={1057-7149}, 
+month={},}
+```
+
+
+
+
+
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
