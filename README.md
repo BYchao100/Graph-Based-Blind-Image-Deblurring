@@ -34,6 +34,12 @@ After kernel estimation with the proposed algorithm, we use the state-of-the-art
 Here, we provide users with [1] to do following non-blind image deblurring.
 Users can also employ [2] or non-blind deblurring in [3], by themselves.
 
+[1] D. Krishnan and R. Fergus, “Fast image deconvolution using hyperlaplacian priors,” in Proceedings of Neural Information Processing Systems, 2009, Conference Proceedings, pp. 1033–1041.
+
+[2] D. Zoran and Y. Weiss, “From learning models of natural image patches to whole image restoration,” in Proceedings of IEEE International Conference on Computer Vision, 2011, Conference Proceedings, pp. 479–486.
+
+[3] J. Pan, D. Sun, H. Pfister, and M.-H. Yang, “Blind image deblurring using dark channel prior,” in Proceedings of IEEE Conference on Computer Vision and Pattern Recognition, June 2016.
+
 ## Citation
 
 If you use this code, please cite:
