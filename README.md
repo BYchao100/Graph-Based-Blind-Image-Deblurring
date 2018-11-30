@@ -1,11 +1,6 @@
 # Graph-Based-Blind-Image-Deblurring
-This code is the upgraded implementation of paper "Graph-based Blind Image Deblurring from a Single Photograph".
 
-Preparing to upload...
-
-# Project Title
-
-One Paragraph of project description goes here
+This code is the upgraded implementation of TIP paper "Graph-based Blind Image Deblurring from a Single Photograph".
 
 ## Getting Started
 
@@ -13,40 +8,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+Matlab(>=R2015a)
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
 ```
-Give an example
+1. run graph_blind_main.m
+2. select the blurred image
 ```
 
 ### And coding style tests
