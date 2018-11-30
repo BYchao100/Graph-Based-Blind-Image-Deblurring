@@ -16,7 +16,7 @@ Matlab(>=R2015a)
 ## Parameters
 
 Users only need to tune *ONE* parameter. On line 21, the estimated kernel size ***k_estimate_size***. 
-* The ***k_estimate_size*** must be LARGER than the real kernel size (The default value is 69).
+* The ***k_estimate_size*** must be *LARGER* than the real kernel size (The default value is 69).
 * In order to have the best performance, please set the value close to real kernel size or slightly larger.
 
 ## About noise
