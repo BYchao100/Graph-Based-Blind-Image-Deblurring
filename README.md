@@ -17,13 +17,11 @@ Matlab(>=R2015a)
 2. select the blurred image
 ```
 
-### And coding style tests
+### Parameters
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+Users only need to tune ONE parameter. On line 21, estimated kernel size "k_estimate_size". 
+* The estimated kernel size must be LARGER than the real kernel size (The default value is 69).
+* In order to have the best performance, please set the value close to real kernel size or slightly larger.
 
 ## Deployment
 
