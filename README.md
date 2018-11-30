@@ -2,11 +2,7 @@
 
 This code is the upgraded implementation of TIP paper "Graph-based Blind Image Deblurring from a Single Photograph".
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
+## Prerequisite
 
 Matlab(>=R2015a)
 
@@ -17,15 +13,19 @@ Matlab(>=R2015a)
 2. select the blurred image
 ```
 
-### Parameters
+## Parameters
 
-Users only need to tune ONE parameter. On line 21, estimated kernel size "k_estimate_size". 
+Users only need to tune *ONE* parameter. On line 21, the estimated kernel size *k_estimate_size*. 
 * The estimated kernel size must be LARGER than the real kernel size (The default value is 69).
 * In order to have the best performance, please set the value close to real kernel size or slightly larger.
 
-## Deployment
+## To be robust with noise
 
-Add additional notes about how to deploy this on a live system
+In order to be more robust with noise, we add several denoising modules beyond the paper.
+* We embed a TV denoising to pre-process the input image. 
+* We add a wavelet thresholding for intermediate output kernels. 
+* We add a mask to filter small/noisy gradient in the gradient domain.
+More sophisticated denoising can be done by users before inputting into the software, such as BM3D.
 
 ## Built With
 
