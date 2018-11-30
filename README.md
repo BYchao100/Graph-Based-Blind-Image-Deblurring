@@ -26,7 +26,7 @@ In order to be more robust with noise, we add several denoising modules beyond t
 * We add a wavelet thresholding for intermediate output kernels. 
 * We add a mask to filter small/noisy gradient in the gradient domain.
 
-More sophisticated denoising can be done by users before inputting into the software, such as BM3D.
+More sophisticated denoising can be done by users before running the blind deblurring, such as BM3D.
 
 ## Built With
 
