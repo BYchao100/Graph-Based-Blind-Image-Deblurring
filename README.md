@@ -1,6 +1,6 @@
 # Graph-Based-Blind-Image-Deblurring
 
-This code is the upgraded implementation of TIP paper "Graph-based Blind Image Deblurring from a Single Photograph".
+This code is the upgraded implementation of our TIP paper "Graph-based Blind Image Deblurring from a Single Photograph".
 
 ## Prerequisite
 
@@ -15,7 +15,7 @@ Matlab(>=R2015a)
 
 ## Parameters
 
-Users only need to tune *ONE* parameter. On line 21, the estimated kernel size *k_estimate_size*. 
+Users only need to tune *ONE* parameter. On line 21, the estimated kernel size ***k_estimate_size***. 
 * The estimated kernel size must be LARGER than the real kernel size (The default value is 69).
 * In order to have the best performance, please set the value close to real kernel size or slightly larger.
 
