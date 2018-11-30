@@ -45,18 +45,17 @@ Users can also employ [2] or non-blind deblurring in [3], by themselves.
 If you use this code, please cite:
 
 ```
-@ARTICLE{GraphBID2018TIP, 
+@ARTICLE{GraphBID, 
 author={Y. Bai and G. Cheung and X. Liu and W. Gao}, 
 journal={IEEE Transactions on Image Processing}, 
 title={Graph-Based Blind Image Deblurring From a Single Photograph}, 
-year={2018}, 
-volume={}, 
-number={}, 
-pages={1-1}, 
-keywords={Image restoration;Kernel;Skeleton;Image edge detection;Laplace equations;Symmetric matrices;Optimization;Blind image deblurring;graph signal processing;non-convex optimization}, 
+year={2019}, 
+volume={28}, 
+number={3}, 
+pages={1404-1418}, 
 doi={10.1109/TIP.2018.2874290}, 
 ISSN={1057-7149}, 
-month={},}
+month={March},}
 ```
 
 
