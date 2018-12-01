@@ -17,13 +17,13 @@ Step 2. select the blurred image
 
 Users only need to tune *ONE* parameter. On line 21, the estimated kernel size ***k_estimate_size***. 
 * The ***k_estimate_size*** must be *LARGER* than the real kernel size (The default value is 69).
-* In order to have the best performance, please set the value close to real kernel size or slightly larger.
+* In order to have the best performance, please set the value close to real kernel size and slightly larger.
 
 ## About noise
 
 In order to be more robust with noise, we add several denoising modules beyond the paper.
 * We embed a TV denoising to pre-process the input image. 
-* We add a wavelet thresholding for intermediate output kernels. 
+* We add a wavelet domain filtering for intermediate output kernels. 
 * We add a mask to filter small/noisy gradient in the gradient domain.
 
 More sophisticated denoising can be done by users in advance, such as BM3D.
