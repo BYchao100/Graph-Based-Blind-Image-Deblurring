@@ -9,8 +9,8 @@ Matlab(>=R2015a)
 ## Running the tests
 
 ```
-1. run graph_blind_main.m
-2. select the blurred image
+Step 1. run graph_blind_main.m
+Step 2. select the blurred image
 ```
 
 ## Parameters
