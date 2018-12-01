@@ -26,13 +26,13 @@ In order to be more robust with noise, we add several denoising modules beyond t
 * We add a wavelet domain filtering for intermediate output kernels. 
 * We add a mask to filter small/noisy gradient in the gradient domain.
 
-More sophisticated denoising can be done by users in advance, such as BM3D.
+More sophisticated denoising, such as BM3D, can be done by users in advance.
 
 ## About Non-blind image deblurring
 
 After kernel estimation with the proposed algorithm, we use the state-of-the-art methods to do non-blind image deblurring.
-Here, we provide users with [1] to do following non-blind image deblurring.
-Users can also employ [2] or non-blind deblurring in [3], by themselves.
+Here, we provide users with [1] to do the following non-blind image deblurring process.
+Users can also employ [2] or the non-blind deblurring method in [3], by themselves.
 
 [1] D. Krishnan and R. Fergus, “Fast image deconvolution using hyperlaplacian priors,” in Proceedings of Neural Information Processing Systems, 2009, Conference Proceedings, pp. 1033–1041.
 
