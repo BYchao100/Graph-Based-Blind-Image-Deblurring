@@ -10,7 +10,7 @@ Matlab(>=R2015a)
 
 ```
 Step 1. run graph_blind_main.m
-Step 2. select the blurred image
+Step 2. select a blurred image
 ```
 
 ## Parameters
