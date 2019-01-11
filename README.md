@@ -19,6 +19,8 @@ Users only need to tune *ONE* parameter. On line 21, the estimated kernel size *
 * The ***k_estimate_size*** must be *LARGER* than the real kernel size (The default value is 69).
 * In order to have the best performance, please set the value close to real kernel size and slightly larger.
 
+If you want to turn off the intermediate output, you can set ***show_intermediate***=false on line 22.
+
 ## About noise
 
 In order to be more robust with noise, we add several denoising modules beyond the paper.
