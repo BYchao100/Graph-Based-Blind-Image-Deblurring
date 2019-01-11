@@ -19,10 +19,11 @@ title('Blurry Image');
 
 %% Blind image deblurring
 k_estimate_size=69; % set approximate kernel size
+show_intermediate=true; % show intermediate output or not
 
 border=20;% cut boundaries of the input blurry image (default border length: 20) 
 tic;
-[ k_estimate,Y_intermediate ] = bid_rgtv_c2f_cg( Y_b(border+1:end-border,border+1:end-border),k_estimate_size );
+[ k_estimate,Y_intermediate ] = bid_rgtv_c2f_cg( Y_b(border+1:end-border,border+1:end-border),k_estimate_size,show_intermediate );
 t=toc;
 fprintf('Grpah based Blind Deblurring Running Time:%f s\n',t);
 
